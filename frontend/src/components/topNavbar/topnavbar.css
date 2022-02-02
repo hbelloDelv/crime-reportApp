@@ -1,0 +1,100 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 2%;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+}
+
+.mainNav li{
+    display: inline;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.LoginLink{
+    margin-left: 32px;
+    border: 1px solid gainsboro;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.LoginLink:hover{
+  background-color: rgb(76, 189, 226)
+}
+
+
+.burgar{
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+  }
+
+
+  
+ 
+  @media all and (max-width: 768px) {
+    .burgar{
+     display: block;
+   }
+ 
+   .mainNav{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: rgb(54, 141, 170);
+        padding: 48px;
+        width: 50%;
+        transform: translateX(-500px);
+        transition: 0.5s ease-in-out;
+    
+   }
+ 
+   .mainNav ul{
+    display: block;
+}
+
+   .mainNav li{
+     padding: 24px;
+     border-bottom: 1px solid #ccc;
+     display: block;
+     
+   }
+ 
+    
+    /* .mainNav a{
+        color: #fff;
+        
+    } */
+ 
+   .userNav li:last-of-type{
+     border-bottom: 0px solid #ccc;
+   }
+ 
+   .userNav a:hover{ 
+     border-bottom: 0px solid #fff;
+   }  
+
+   .LoginLink{
+    margin-left: 0px;
+    border: 0px solid gainsboro;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+ }

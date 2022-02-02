@@ -1,0 +1,167 @@
+.form-containerForReport{
+    margin: 64px 0px 128px 0px;
+}
+
+.report{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-container{
+    display: flex;
+    gap: 8px; 
+}
+
+
+@media (max-width: 40em){
+    .media-container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 0px 2%;
+    }
+
+    .form-container{
+           width: 90%;
+            margin: auto;
+            margin-bottom: 128px;
+    }
+
+    .submitReportBtn{
+        width: 100%;
+    
+    }
+}
+
+
+
+.textArea{
+    width: 30rem;
+    height: 10rem;
+    border: none;
+    font-size: 24px;
+}
+
+.textArea:focus{
+    outline-style: none;
+}
+
+
+
+/* starts */
+.media-container{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.media-item{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(122, 109, 109);
+}
+
+
+.media-wrapper{
+    border: 1px solid white;
+    padding: 24px;
+}
+
+.media-title{
+    padding-top: 4px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+.media-itemIcons{
+    width: 64px;
+    height: 64px;
+    color: white;
+}
+
+.previewBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    border: 1px dotted gray;
+    margin-top: 16px;
+}
+
+
+
+
+@media (max-width: 40em){
+
+    .previewBox{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 0px 2%;
+       border: 1px dotted white;
+    }
+    
+}
+
+.preview-items{
+    border: 1px solid gray;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.last-two-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+
+.last-two-inputsLabels{
+    margin: 24px 0 8px 0;
+    font-weight: 600;
+    /* color: gainsboro; */
+}
+
+.textInput{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 191, 191);
+}
+
+.textInput:focus{
+  border: 1px solid rgb(128, 128, 128);
+}
+
+.submitReportBtn{
+    padding: 12px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    width: 96px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.forgetPassword {
+    cursor: pointer;
+}
+
+.forgetPassword p{
+    font-weight: 490;
+    color: teal;
+}
+

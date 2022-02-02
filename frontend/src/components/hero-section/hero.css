@@ -1,0 +1,47 @@
+.hero{
+    min-height: 40vh;
+    /* border: 1px solid blue; */
+    margin: 16px 0px 104px 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-image: url('./heroImage/heroImage.jpg');
+    /* background-clip: content-box; */
+    background-size: cover;
+    background-position:top;
+    box-shadow: 0px 0px 5px gainsboro;
+}
+
+.hero-btn{
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.8 rem;
+
+    /* Positon the button */
+    grid-column: 3;
+    grid-row: 4;
+}
+
+
+/* @media (max-width: 40em){
+    .hero-btn{
+       
+        grid-row: span 4/4;
+     
+    }
+} */
+
+
+
+.hero-btnIcon{
+    margin-right: 16px;
+}
+
+.hero-btn:hover{
+    background-color: green;
+}

@@ -1,0 +1,44 @@
+.report-container{
+    padding: 2px 2px 2px 2px;
+}
+
+
+tr{
+    /* outline: 1px solid gainsboro; */
+    outline: 1px solid rgb(187, 243, 240);;
+    font-size: 1rem;
+    font-weight: 400;
+    /* font-family:Georgia, 'Times New Roman', Times, ; */
+    font-family: sans-serif;
+    line-height: 1.3rem;
+    /* padding-left: 8px; */
+    /* color: gray; */
+}
+
+thead{
+          color: white;
+          font-size: 0.8rem;
+          /* background-color: rgb(94, 91, 91); */
+          /* background-color: rgb(8, 105, 138); */
+          /* background-color: lightseagreen; */
+          background-color: teal;
+
+}
+
+
+.imagedb{
+    width: 25px;
+    height: 25px;
+}
+
+
+.deleteButton{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    /* font-size: 0.7rem; */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}

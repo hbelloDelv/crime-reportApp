@@ -1,0 +1,16 @@
+.admin-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 2%;
+    background-color: rgb(8, 105, 138);
+    position: sticky;
+    top: 0;
+}
+
+.headerIcon{
+
+    width: 32px;
+    height: 32px;
+    color: white;
+}
